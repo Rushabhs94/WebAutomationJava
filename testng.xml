@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite">
+	<listeners>
+		<listener class-name="com.web.automation.reports.TestListners" />
+	</listeners>
+	<test name="Test Basics 1">
+		<classes>
+			<class name="com.web.automation.group.admin.UploadData">
+				<!--<methods>
+					<include name="verifyDownloadIncomeRecordReport" />
+				</methods>-->
+			</class>
+			<!--<class name="com.web.automation.group.admin.BooksOfAccountsTDS">
+				<methods>
+					<include name="verifyRejectUploadIncomeRecord" />
+					<include name="verifyUploadIncomeRecord" />
+					<include name="verifyRunDeterminationForTDS" />
+				</methods>
+			</class>
+			<class name="com.web.automation.group.admin.ConfigurationSettingsCustomerMaster">
+				<methods>
+					<include name="verifyDownloadIncomeRecordReport" />
+				</methods>
+			</class>
+			<class name="com.web.automation.group.admin.ConfigurationSettingsLDCMaster">
+				<methods>
+					<include name="verifyDownloadIncomeRecordReport" />
+				</methods>
+			</class>
+			<class name="com.web.automation.group.admin.ConfigurationSettingsVendorMaster">
+				<methods>
+					<include name="verifyDownloadIncomeRecordReport" />
+				</methods>
+			</class>
+			<class name="com.web.automation.group.admin.ConfigurationSettingsVendorMaster">
+				<methods>
+					<include name="Form26AS" />
+				</methods>
+			</class>
+			
+			<class name="com.web.automation.group.admin.ConfigurationSettingsVendorMaster">
+				<methods>
+					<include name="Form26AS" />
+				</methods>
+			</class>
+			
+			<class name="com.web.automation.group.admin.Report">
+				<methods>
+					<include name="Form26AS" />
+				</methods>
+			</class>-->
+			
+
+		</classes>
+	</test>
+
+</suite>
