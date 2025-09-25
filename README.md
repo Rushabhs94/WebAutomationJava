@@ -19,3 +19,51 @@ If you want to learn more about creating good readme files then refer the follow
 - [ASP.NET Core](https://github.com/aspnet/Home)
 - [Visual Studio Code](https://github.com/Microsoft/vscode)
 - [Chakra Core](https://github.com/Microsoft/ChakraCore)
+
+==========================================================================
+Automation Setup – Prerequisite Document
+==========================================================================
+🔧 1. Install Eclipse IDE	2
+  2. Install Java & Set JAVA_HOME Path	2
+📦 3. Install Maven & Set Path	3
+==========================================================================
+🔧 1. Install Eclipse IDE
+1.	Go to the official site: https://www.eclipse.org/downloads/
+2.	Download “Eclipse IDE for Java Developers” (choose latest stable version).
+3.	Extract the ZIP folder and double-click eclipse.exe to launch.
+4.	Set your workspace folder (e.g., C:\AutomationWorkspace).
+
+  2. Install Java & Set JAVA_HOME Path
+Required: Java JDK (preferably  17)
+✅ Steps:
+1.	Download OR use OpenJDK
+2.	Install JDK → Default location is usually:
+C:\Program Files\Java\jdk-<version>
+3.	Set Environment Variables:
+o	Search for Environment Variables → Click Edit the system environment variables
+o	Under System Variables, click New:
+	Name: JAVA_HOME
+	Value: C:\Program Files\Java\jdk-<version>
+o	Edit Path → Add:
+%JAVA_HOME%\bin
+4.	Verify in Command Prompt:
+•	java -version
+
+
+
+
+📦 3. Install Maven & Set Path
+Required for running automation test suites via command line, Jenkins, or CI/CD
+✅ Steps:
+1.	Download Maven ZIP:
+https://maven.apache.org/download.cgi
+2.	Extract it to:
+C:\apache-maven-<version>
+3.	Set Environment Variables:
+o	System Variable → New:
+	Name: MAVEN_HOME
+	Value: C:\apache-maven-<version>
+o	Edit Path → Add:
+%MAVEN_HOME%\bin
+4.	Verify in Command Prompt:
+•	mvn -version
