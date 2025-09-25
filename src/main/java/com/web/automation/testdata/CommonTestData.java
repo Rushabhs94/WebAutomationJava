@@ -1,4 +1,4 @@
-package com.web.automation.testdata;
+wpackage com.web.automation.testdata;
 
 public class CommonTestData {
 	
